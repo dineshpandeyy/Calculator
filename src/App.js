@@ -9,19 +9,19 @@ function App() {
     return digits;
   }
   return (
-    <div className="App">
-      <div className="calculator">
-        <div className="display">
+    <div className="application">
+      <div className="main">
+        <div className="webview">
           <span>(0)</span> 0
         </div>
-        <div className="operators">
+        <div className="total-operators">
           <button>/</button>
           <button>*</button>
           <button>+</button>
           <button>-</button>
           <button>DEL</button>
         </div>
-        <div className="digits">
+        <div className="numbers">
           {createDigits()}
           <button>0</button>
           <button>.</button>
