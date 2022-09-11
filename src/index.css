@@ -1,7 +1,7 @@
 :root {
-  --primary: red;
-  --secondary: blue;
-  --dark: black;
+  --primary: #d81e5b;
+  --secondary: #8c38ff;
+  --dark: #131a26;
   --light: #eee;
 }
 
@@ -60,4 +60,21 @@ button:hover {
 
 .total-operators {
   display: flex;
+}
+
+.total-operators button {
+  flex: 1 1 0%;
+  background-color: var(--primary);
+  font-size: 700;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers button {
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+  background-color: var(--dark);
 }
